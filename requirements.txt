@@ -1,0 +1,6 @@
+Flask
+elasticsearch
+tensorflow
+tensorflow-hub
+Jinja2
+pandas

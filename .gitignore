@@ -1,0 +1,9 @@
+# Ignore data files
+data/Questions.csv
+data/Answers.csv
+data/cleaned_Questions.csv
+data/cleaned_Answers.csv
+data/Tags.csv
+data/Tags_cleaned.csv
+data/top200kQuesData
+

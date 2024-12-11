@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Search Engine</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9; /* Neutral light background */
+            color: #333; /* Dark text for readability */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff; /* White background for the card */
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            color: #4a90e2; /* Light blue text for the title */
+            margin-bottom: 20px;
+        }
+        .author {
+            color: #777; /* Subtle gray for less important text */
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+        button {
+            padding: 12px 20px;
+            border: none;
+            background-color: #4a90e2; /* Consistent with title color */
+            color: #fff;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #357ab8; /* Darker blue for hover effect */
+            transform: scale(1.05); /* Slight scaling effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Semantic Search Engine</h1>
+        <form action="/search" method="post">
+            <input type="text" id="query" name="query" placeholder="Enter your search query" required>
+            <button type="submit">Search</button>
+        </form>
+        <div class="author">This project was created by Sharad Mishra ;)</div>
+    </div>
+</body>
+</html>
